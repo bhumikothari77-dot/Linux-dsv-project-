@@ -38,5 +38,13 @@ echo -e "${CYAN}====================================${RESET}"
 echo -e "${GREEN}        System Monitoring Active 🚀${RESET}"
 echo -e "${CYAN}====================================${RESET}"
 
+# Disk Usage
+DISK=$(df -h / | awk 'NR==2{Print $5}')
+# Avaliable RAM
+AVAIL_MEM =$(free-h |awk '/Mem:/{print $4'})
+# print new stats 
+echo -e "${yellow}DISK usage:${RESET}
+
+
 
 

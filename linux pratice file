@@ -61,7 +61,47 @@ and the code was used systemctl
   unattended-upgrades.service loaded active running Unattended Upgrades Shutdown
   user@0.service              loaded active running User Manager for UID 0
   wsl-pro.service             loaded active running Bridge to Ubuntu Pro agent on Windows
-~
+journalctl -n 50
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on keyboxd.socket - GnuPG public key management service.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on pk-debconf-helper.socket - debconf communication socket.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Starting wslg-session.service - WSLg user service...
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Reached target sockets.target - Sockets.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Reached target basic.target - Basic System.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Reached target default.target - Main User Target.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[1]: Started user@0.service - User Manager for UID 0.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[1]: Started session-1.scope - Session 1 of User root.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM login[367]: ROOT LOGIN  on '/dev/pts/1'
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Finished wslg-session.service - WSLg user service.
+Aug 12 11:41:50 LAPTOP-NPMTA2VM systemd[343]: Startup finished in 641ms.
+Aug 12 11:41:52 LAPTOP-NPMTA2VM systemd[1]: dmesg.service: Deactivated successfully.
+Aug 12 11:41:52 LAPTOP-NPMTA2VM systemd[1]: dmesg.service: Consumed 2.470s CPU time.
+Aug 12 11:41:52 LAPTOP-NPMTA2VM snapd[167]: standby.go:101: standby conditions met, initiating standby...
+Aug 12 11:41:52 LAPTOP-NPMTA2VM snapd[167]: daemon.go:569: gracefully waiting for running hooks
+Aug 12 11:41:52 LAPTOP-NPMTA2VM snapd[167]: daemon.go:571: done waiting for running hooks
+Aug 12 11:41:54 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Daemon: connecting to Windows Agent
+Aug 12 11:41:54 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Connecting"
+Aug 12 11:41:54 LAPTOP-NPMTA2VM wsl-pro-service[176]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port >
+Aug 12 11:41:54 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Reconnecting to Windows host in 8 seconds
+Aug 12 11:41:54 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Not connected: waiting to retry"
+Aug 12 11:41:55 LAPTOP-NPMTA2VM snapd[167]: standby.go:121: standby monitoring stop requested
+Aug 12 11:41:55 LAPTOP-NPMTA2VM snapd[167]: overlord.go:568: Released state lock file
+Aug 12 11:41:55 LAPTOP-NPMTA2VM snapd[167]: seclog.go:189: security logger disabled
+Aug 12 11:41:55 LAPTOP-NPMTA2VM snapd[167]: daemon stop requested to wait for socket activation
+Aug 12 11:41:55 LAPTOP-NPMTA2VM systemd[1]: snapd.service: Deactivated successfully.
+Aug 12 11:42:02 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Daemon: connecting to Windows Agent
+Aug 12 11:42:02 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Connecting"
+Aug 12 11:42:02 LAPTOP-NPMTA2VM wsl-pro-service[176]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port >
+Aug 12 11:42:02 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Reconnecting to Windows host in 16 seconds
+Aug 12 11:42:02 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Not connected: waiting to retry"
+Aug 12 11:42:17 LAPTOP-NPMTA2VM systemd[1]: systemd-timedated.service: Deactivated successfully.
+Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Daemon: connecting to Windows Agent
+Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Connecting"
+Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port >
+Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Reconnecting to Windows host in 32 seconds
 ~
 ~
 ~

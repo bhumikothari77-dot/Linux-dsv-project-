@@ -1,0 +1,13 @@
+ Git is a free, open-source distributed version control system used to track changes in source code during software development. It was created by Linus Torvalds in 2005 to help manage the development of the Linux kernel.
+
+Key Features
+
+
+
+
+
+Version tracking — records every change made to files, so you can revert to any previous version at any time.
+
+
+
+Branching and merging — lets you create separate "branches" to work on new features or fixes without affecting the main codebase, then merge them 

@@ -11,3 +11,16 @@ Version tracking — records every change made to files, so you can revert to an
 
 
 Branching and merging — lets you create separate "branches" to work on new features or fixes without affecting the main codebase, then merge them 
+Remote hosting — store repos online, accessible from anywhere, with push/pull to sync local and remote copies.
+Pull Requests (PRs) — propose changes from one branch/fork into another, with code review, comments, and approval workflows before merging.
+Issues — track bugs, tasks, and feature requests, with labels, assignees, and milestones.
+GitHub Actions — built-in CI/CD automation (run tests, build, deploy) triggered by events like pushes or PRs.
+Forking — copy someone else's repo into your account to experiment or contribute back via PR.
+GitHub Pages — free static site hosting directly from a repo.
+Wikis & README — documentation built into each repo.
+Access control — manage collaborators, teams, and permissions (public/private repos, organizations).
+Code review tools — inline comments, diffs, suggested changes, required reviewers.
+Security tools — Dependabot (dependency vulnerability alerts), secret scanning, code scanning.
+Projects/boards — Kanban-style boards for tracking work.
+GitHub Marketplace — third-party integrations and apps.
+Codespaces — cloud-based dev environments launched directly from a repo.

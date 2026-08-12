@@ -102,7 +102,54 @@ Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Daemon: connecting to
 Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: DEBUG Updated systemd status to "Connecting"
 Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: WARNING Daemon: could not connect to Windows Agent: could not get address: could not read agent port >
 Aug 12 11:42:18 LAPTOP-NPMTA2VM wsl-pro-service[176]: INFO Reconnecting to Windows host in 32 seconds
-~
+Running — The process is currently using the CPU, or is ready to use it.
+Example: You open Chrome and it is actively executing instructions.
+🟡 Sleeping — The process is waiting for something, so it isn't using the CPU right now.
+Example: A program is waiting for you to press a key or waiting for data from a file/network.
+Sleeping does NOT mean the program is stopped or closed. It can wake up when the thing it needs happens.
+🔴 Zombie — The process has finished executing, but its parent process hasn't yet collected its exit status.
+It doesn't actually run anymore and uses almost no resources.
+Think: the process is dead, but its entry is still recorded by the OS.
+Simple analogy
+
+Imagine a restaurant:
+
+State	Analogy
+Running	Chef is actively cooking 👨‍🍳
+Sleeping	Chef is waiting for ingredients ⏳
+Zombie	Chef finished and left, but the manager hasn't recorded the completion yet 👻
+
+So, in short:
+
+Running → doing work
+Sleeping → waiting
+Zombie → finished, waiting for parent to clean up
+
+list 5 commands you would use daily
+
+If you're talking about Linux/Unix commands, here are 5 common ones you might use daily:
+
+ls — Lists files and directories.
+
+ls
+
+cd — Changes the current directory.
+
+cd Documents
+
+pwd — Shows your current directory.
+
+pwd
+
+cp — Copies files or directories.
+
+cp file.txt backup.txt
+
+rm — Removes files or directories.
+
+rm file.txt
+
+Easy way to remember: pwd → see where you are, ls → see what's there, cd → move around, cp → copy, rm → delete.
 ~
 ~
 ~

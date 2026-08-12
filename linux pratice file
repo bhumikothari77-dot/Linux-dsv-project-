@@ -6,8 +6,47 @@ Command:
 ps aux
 end 
 ls -l linux_pratice .md~
-~
-~
+~APTOP-NPMTA2VM
+    State: running
+    Units: 355 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Wed 2026-08-12 11:26:56 UTC; 44s ago
+  systemd: 255.4-1ubuntu8.17
+   CGroup: /
+           ├─init.scope
+           │ ├─  1 /sbin/init
+           │ ├─  2 /init
+           │ ├─  7 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+           │ ├─294 /init
+           │ ├─295 /init
+           │ ├─296 -bash
+           │ ├─420 systemctl status
+           │ └─421 less
+           ├─system.slice
+           │ ├─cron.service
+           │ │ └─162 /usr/sbin/cron -f -P
+           │ ├─dbus.service
+           │ │ └─163 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+           │ ├─rsyslog.service
+           │ │ └─189 /usr/sbin/rsyslogd -n -iNONE
+           │ ├─system-getty.slice
+           │ │ └─getty@tty1.service
+           │ │   └─192 /sbin/agetty -o "-p -- \\u" --noclear - linux
+           │ ├─systemd-journald.service
+           │ │ └─65 /usr/lib/systemd/systemd-journald
+           │ ├─systemd-logind.service
+           │ │ └─171 /usr/lib/systemd/systemd-logind
+           │ ├─systemd-resolved.service
+           │ │ └─137 /usr/lib/systemd/systemd-resolved
+           │ ├─systemd-timesyncd.service
+           │ │ └─142 /usr/lib/systemd/systemd-timesyncd
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   └─115 /usr/lib/systemd/systemd-udevd
+           │ ├─unattended-upgrades.service
+           │ │ └─211 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+and the code was used systemctl
 ~
 ~
 ~
